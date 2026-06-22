@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Azrhil Priyatna | Futuristic CV</title>
+    <!-- Google Fonts & Lucide Icons via CDN -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hologram-grid"></div>
+    <div class="dots-overlay hover-effect"></div>
+
+    <!-- UI Background Scan Lines -->
+    <div class="scanline"></div>
+
+    <div class="container">
+        <!-- Floating Particle Canvas backdrop -->
+        <canvas id="particleCanvas"></canvas>
+
+        <header class="cyber-header">
+            <div class="profile-frame animate-border">
+                <div class="avatar-glow"></div>
+                <div class="avatar-placeholder">
+                    <span>AP</span>
+                </div>
+                <div class="online-tag">
+                    <span class="pulse-dot"></span> SYSTEM ACTIVE
+                </div>
+            </div>
+
+            <div class="header-info">
+                <h1 class="glow-text text-glitch" data-text="M. Azrhil Priyatna">M. Azrhil Priyatna</h1>
+                <p class="cyber-badge">CYBER SECURITY & NETWORK SPECIALIST</p>
+                <div class="meta-rows">
+                    <span class="meta-tag"><span class="highlight-cyan">[TTL]:</span> Serang, 01 Des 2005</span>
+                    <span class="meta-tag"><span class="highlight-cyan">[LOC]:</span> Banten, Indonesia</span>
+                </div>
+            </div>
+            
+            <div class="system-diagnostics">
+                <div class="diag-title">SYSTEM STATUS</div>
+                <div class="diag-row"><span>CPU ACCESS:</span> <span class="text-green">SECURE</span></div>
+                <div class="diag-row"><span>CORE TEMP:</span> <span class="text-glow">36.5°C</span></div>
+                <div class="diag-row"><span>LATENCY:</span> <span class="text-cyan">12ms</span></div>
+            </div>
+        </header>
+
+        <main class="cyber-grid">
+            <!-- Sidebar: Hub details -->
+            <div class="cyber-col col-sidebar">
+                <div class="cyber-card animate-glow">
+                    <h3 class="card-title"><span class="terminal-decor">></span> CORRESPONDENCE</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="label">MOBILE</span>
+                            <a href="tel:085591493116" class="val val-link">085591493116</a>
+                        </li>
+                        <li>
+                            <span class="label">EMAIL</span>
+                            <a href="mailto:azrhilpriyatna3346@gmail.com" class="val val-link">azrhilpriyatna3346@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="label">SECTOR</span>
+                            <span class="val">Puri Cempaka D10-06</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cyber-card animate-glow">
+                    <h3 class="card-title"><span class="terminal-decor">></span> BEHAVIORAL PROTOCOLS</h3>
+                    <div class="soft-skills">
+                        <div class="soft-tag">Kepemimpinan</div>
+                        <div class="soft-tag">Problem Solving</div>
+                        <div class="soft-tag">Analisis Strategis</div>
+                        <div class="soft-tag">Riset & Litbang</div>
+                        <div class="soft-tag">Kolaborasi Tim</div>
+                        <div class="soft-tag">Resiliensi</div>
+                    </div>
+                </div>
+
+                <div class="cyber-card animate-glow">
+                    <h3 class="card-title"><span class="terminal-decor">></span> LANGUAGES</h3>
+                    <div class="language-bar">
+                        <div class="lang-row">
+                            <span>INDONESIA</span>
+                            <span class="text-green font-mono">[NATIVE]</span>
+                        </div>
+                        <div class="lang-row">
+                            <span>ENGLISH</span>
+                            <span class="text-cyan font-mono">[BASIC]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="cyber-col col-main">
+                <div class="cyber-card animate-glow">
+                    <h3 class="card-title"><span class="terminal-decor">></span> COGNITIVE PROFILE</h3>
+                    <p class="summary-text font-mono">
+                        "Lulusan Teknik Komputer Jaringan (TKJ) berpengalaman organisasi dalam riset teknologi serta memiliki kecerdasan taktis dalam manajemen logistik material sirkuit semikonduktor. Tersertifikasi dalam meremajakan sistem komputasi dan pemeliharaan infrastruktur jaringan."
+                    </p>
+                </div>
+
+                <div class="cyber-card animate-glow">
+                    <h3 class="card-title"><span class="terminal-decor">></span> EXPERIMENTAL EXPERIENCE (MAGANG)</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4 class="timeline-title">PT. Indonesia Nippon Seiki</h4>
+                            <span class="timeline-badge font-mono">PMCS SPECIALIST</span>
+                        </div>
+                        <p class="timeline-date">3 BULAN | INTERNSHIP</p>
+                        <p class="timeline-desc">
+                            Mengatur kendali suplai material bahan baku manufaktur elektronik presisi. Menerima, menata, dan melakukan kontrol inventori yang diimpor global untuk memasok divisi produksi perakitan utama. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cyber-card animate-glow">
+                    <h3 class="card-title"><span class="terminal-decor">></span> ORGANIZATIONAL OPERATIONS</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4 class="timeline-title">Front Aksi Mahasiswa (FAM)</h4>
+                            <span class="timeline-badge font-mono">KEPALA LITBANG</span>
+                        </div>
+                        <p class="timeline-date">2024 - PRESENT</p>
+                        <p class="timeline-desc">
+                            Kepala Divisi Penelitian dan Pengembangan. Menyelenggarakan kajian krisis teknologi, koordinasi riset kebijakan, dan memimpin kelompok pemikir untuk menyajikan metodologi analisis komprehensif bagi gerakan eksternal organisasi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cyber-card animate-glow">
+                    <h3 class="card-title"><span class="terminal-decor">></span> NETWORKING & SYS ADMIN matrix</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Network LAN/WAN</span>
+                                <span class="font-mono text-cyan">85%</span>
+                            </div>
+                            <div class="skill-track"><div class="skill-fill" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>MikroTik & Cisco Config</span>
+                                <span class="font-mono text-cyan">80%</span>
+                            </div>
+                            <div class="skill-track"><div class="skill-fill" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Hardware & OS Deploy</span>
+                                <span class="font-mono text-green">90%</span>
+                            </div>
+                            <div class="skill-track"><div class="skill-fill" style="width: 900%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Linux Server Config</span>
+                                <span class="font-mono text-cyan">75%</span>
+                            </div>
+                            <div class="skill-track"><div class="skill-fill" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cyber-card animate-glow">
+                    <h3 class="card-title"><span class="terminal-decor">></span> EDUCATION LOGS</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-header">
+                            <h4 class="timeline-title">SMK PGRI 3 KOTA SERANG</h4>
+                            <span class="timeline-badge font-mono">TKJ</span>
+                        </div>
+                        <p class="timeline-date">CLASS OF 2024</p>
+                        <p class="timeline-desc">
+                            Menekuni bidang perakitan sistem komputer modular, pemasangan instalasi kabel fiber-optik, penataan topologi jaringan enterprise, dan perancangan server intranet mandiri.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="cyber-footer font-mono">
+            <span>[SYS VER 2.1.0]</span>
+            <span class="blink">● ENCRYPTED & SECURED PROTOCOL</span>
+            <span>DESIGNED BY AZRHIL PRIYATNA</span>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
